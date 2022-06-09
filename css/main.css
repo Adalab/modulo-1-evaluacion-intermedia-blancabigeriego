@@ -1,6 +1,7 @@
 html{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
+    
 }
 
 .header {
@@ -32,14 +33,19 @@ background-color: #FFFFFF;
     text-transform: uppercase;
     list-style: none;
     text-decoration: none;
+    margin-left: -40px;
+    
     
 
 }
 .menu{
+    display: flex;
+    
     font-size: 1rem;
     color: #4a4a4a;
     margin-bottom: 13px;
     margin-top: 10px;
+    
     
 
 }

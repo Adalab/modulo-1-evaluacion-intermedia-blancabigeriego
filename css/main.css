@@ -30,6 +30,7 @@ background-color: #FFFFFF;
     gap: 20px;
     text-transform: uppercase;
     list-style: none;
+    text-decoration: none;
     
 
 }
@@ -53,8 +54,33 @@ background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: #FFFFFF;
-    border-top: #FFFFFF solid 150px;
+    /*border-top: #FFFFFF solid 150px;*/
+    font-weight: bolder; }
 
-    
+
+
+@media all and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main {
+        border-top: #FFFFFF solid 120px;
+    }
+    .logo {
+        margin: 20px 0px 20px 30px;
+
+    }
+    .menu {
+        margin-right: 30px;
+    }
+
+    .h1 {
+        font-size: 40px;
+    }
+}
+
     

@@ -1,6 +1,7 @@
-html{
+:root {
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    
+    --colormenu: #4a4a4a;
     
 }
 
@@ -35,13 +36,16 @@ background-color: #FFFFFF;
     list-style: none;
     text-decoration: none;
     margin-left: -40px;
-    
+    text-decoration: none;
+    color: #4a4a4a;
     
 
 }
+
+
 .menu{
     display: flex;
-    
+    list-style: none;
     font-size: 1rem;
     color: #4a4a4a;
     margin-bottom: 13px;
@@ -52,7 +56,7 @@ background-color: #FFFFFF;
 }
 
 .h1{
-    font-size: 1.875rem;
+    font-size: 30px;
     
 }
 
@@ -67,6 +71,12 @@ background-color: #FFFFFF;
     
 
     }
+
+.main .title {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 800;
+}
 
 
 

@@ -1,7 +1,9 @@
 :root {
     font-family: 'Rubik', sans-serif;
+    --color-grey: #4a4a4a;
+    --color-blue: #3CDBC0; 
+    --color-white: #ffffff;
     
-    --colormenu: #4a4a4a;
     
 }
 
@@ -15,7 +17,7 @@ justify-content: center;
 position: fixed;
 top:0;
 width: 100%;
-background-color: #FFFFFF;
+background-color: var(--color-white);
 
 
 
@@ -33,19 +35,23 @@ background-color: #FFFFFF;
 }
 .list{
     display:flex;
-    
     text-transform: uppercase;
     list-style: none;
     text-decoration: none;
-    margin-left: -40px;
-    text-decoration: none;
-    color: #4a4a4a;
+   
+    
     
 
 }
 
+a{
+    text-decoration: none;
+}
 .li{
     padding: 0 10px 13px 10px;
+    color: var(--color-grey);
+    text-decoration: none;
+    
 }
 
 
@@ -53,7 +59,8 @@ background-color: #FFFFFF;
     display: flex;
     list-style: none;
     font-size: 1rem;
-    color: #4a4a4a;
+    color: var(--color-grey);
+    text-decoration: none;
     
 }
 
@@ -63,7 +70,7 @@ background-color: #FFFFFF;
 }
 
 .main{
-    background-color: #3CDBC0;
+    background-color: var(--color-blue);
     height: 100vh;
     display: flex;
     justify-content: center;

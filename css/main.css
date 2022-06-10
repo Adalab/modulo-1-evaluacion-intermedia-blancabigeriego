@@ -22,16 +22,18 @@ background-color: #FFFFFF;
 
 }
 
-
+.click {
+    padding: 10px;
+}
 .logo{
     width: 9.688rem;
-    margin-top: 10px;
+    
     
 
 }
 .list{
     display:flex;
-    gap: 20px;
+    
     text-transform: uppercase;
     list-style: none;
     text-decoration: none;
@@ -42,14 +44,18 @@ background-color: #FFFFFF;
 
 }
 
+.li{
+    padding: 0 10px 13px 10px;
+}
+
 
 .menu{
     display: flex;
     list-style: none;
     font-size: 1rem;
     color: #4a4a4a;
-    margin-bottom: 13px;
-    margin-top: 10px;
+    
+    
     
     
 
@@ -87,12 +93,12 @@ background-color: #FFFFFF;
     }
 
    
-    .logo {
-        margin: 20px 0px 20px 30px;
-
+    .click {
+        padding: 20px 30px 20px 30px;
     }
-    .menu {
-        margin-right: 30px;
+   
+    .li{
+        padding: 20px 30px 20px 10px;
     }
 
     .main .title {
